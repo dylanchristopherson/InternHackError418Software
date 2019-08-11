@@ -1,0 +1,25 @@
+{
+	"Params": {
+		"DevMode": {
+			"Instrumentation": {
+				"command": "",
+				"env": {
+					"BLUEMIX_APP_MGMT_ENABLE": "devconsole",
+					"NODE_ENV": "development"
+				},
+				"memory": "384M"
+			},
+			"Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+		},
+		"Name": "ibmtoolchain",
+		"Target": {
+			"Url": "https://api.us-east.bluemix.net",
+			"Org": "ibmnalydORG",
+			"Space": "newSpace"
+		},
+		"Timeout": 60
+	},
+	"Path": "",
+	"ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+	"Type": "Cloud Foundry"
+}

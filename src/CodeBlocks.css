@@ -1,0 +1,110 @@
+.button {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 30px;
+  padding-left: 70px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";
+  zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
+
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
+}
+
+/*
+.go-button {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 40;
+}
+*/
+
+.container-drag {
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #1f70c1;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.status-header {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5%;
+}
+
+.notInUse {
+  float: left;
+  width: 25%;
+  height: 91vh;
+  overflow: scroll;
+  background-color: #1f70c1;
+  border-right: 1px dotted;
+}
+
+.inUse {
+  float: right;
+  width: 25%;
+  height: 91vh;
+  overflow: scroll;
+  background-color: #1f70c1;
+  border-left: 1px dotted;
+}
+
+.block-selecter {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 5px auto;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 5px auto;
+  line-height: 5em;
+}
+
+.blocks {
+  background-color: white;
+}
+
+#mydivheader {
+  cursor: move;
+  color: #fff;
+}
+
+#mydiv {
+  z-index: 9;
+  background-color: black;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+img {
+  display: inline-block;
+}
